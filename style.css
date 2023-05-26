@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.logo{
+    float: left;
+    margin-right: 5vh;
+}
+.nav-menu .nav-menu-list{
+    list-style-type: none;
+
+}
+.nav-menu-list .nav-menu-item{
+    float: left;
+    margin-right: 5vh;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+}
+.banner-item{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: brown;
+}
+.introduce{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: lightblue;
+}
+.introduce .introduce-item-title{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduce-item-title .title-text{
+    font-size: 60px;
+    color: rgb(40, 40, 192);
+}
+.introduce-item-title .subtitle-text{
+    font-size: 20px;
+    color: #eee;
+}
+.more{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more .more-btn{
+    width: 10vw;
+    height: 5vh;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.content1 {
+    width: 750px;
+    margin-right: 30px;
+}
+
+.block1-1 {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+}
+
+.block1-2 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+}
+
+.block1-3 {
+    width: 100%;
+    height: 250px;
+    background-color: lightblue;
+}
+
+.content2 {
+    width: 300px;
+}
+
+.block2-1 {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+}
+
+.block2-2 {
+    width: 100%;
+    height: 630px;
+    background-color: lightblue;
+}
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: lightblue;
+}
+.footer .info{
+    width: 100%;
+    height: 30vh;
+    background-color: #efedc5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .extra-info{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
