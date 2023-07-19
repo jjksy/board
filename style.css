@@ -1,25 +1,38 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'GmarketSansMedium';
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'GmarketSansMedium';
+    background-color: #000;
 }
 a{
     text-decoration: none;
+    color: #000;
+}
+h1{
+    display: none;
 }
 .header {
     width: 100%;
-    height: 10vh;
-    line-height: 10vh;
+    height: 80px;
+    line-height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: lightblue;
+    justify-content: space-between;
+    background-color: #fff;
 }
 .logo{
-    float: left;
-    margin-right: 5vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 .nav-menu .nav-menu-list{
     list-style-type: none;
@@ -31,12 +44,12 @@ a{
 }
 .banner{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-color: lightgray;
 }
 .banner-item{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 80px);
     display: flex;
     background-color: brown;
 }
@@ -44,33 +57,63 @@ a{
     width: 100%;
     height: 100vh;
     text-align: center;
-    background-color: lightblue;
+    background-color: #fff;
 }
 .introduce .introduce-item-title{
     width: 100%;
-    height: 80vh;
+    /* height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+}
+.introduce-item-title .text-area{
+    padding-top: 5%;
 }
 .introduce-item-title .title-text{
     font-size: 60px;
-    color: rgb(40, 40, 192);
+    color: #000;
 }
 .introduce-item-title .subtitle-text{
     font-size: 20px;
-    color: #eee;
+    color: #ccc;
+}
+.introduce-item-icon{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.introduce-item-icon .icons{
+    width: 80%;
+}
+.introduce-item-icon .icon-item-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.icon-item-text-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.icon-item-text-subtitle{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #ccc;
 }
 .more{
     width: 100%;
     height: 10vh;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .more .more-btn{
-    width: 10vw;
-    height: 5vh;
+    width: 15vw;
+    height: 6vh;
+    border: none;
+    background-color: #000;
+    color: #fff;
 }
 
 .container {
@@ -131,7 +174,6 @@ a{
     width: 100%;
     height: 30vh;
     background-color: #efedc5;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .footer .extra-info{
     width: 100%;
@@ -140,5 +182,4 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
