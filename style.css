@@ -132,20 +132,20 @@ h1 {
   width: 100%;
   height: 500px;
   margin-bottom: 30px;
-  background-color: lightblue;
+ /* background-color: lightblue; */
 }
 
 .block1-2 {
   width: 100%;
   height: 500px;
   margin-bottom: 30px;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .block1-3 {
   width: 100%;
   height: 500px;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .content2 {
@@ -154,15 +154,15 @@ h1 {
 
 .block2-1 {
   width: 100%;
-  height: 500px;
+  height: 35vh;
   margin-bottom: 30px;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .block2-2 {
   width: 100%;
   height: 500px;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 .blockImage {
   width: 100%;
